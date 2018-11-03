@@ -34,7 +34,7 @@ $config['base_url'] = '';
 | variable so that it is blank.
 |
 */
-$config['index_page'] = 'index.php';
+$config['index_page'] = '';
 
 /*
 |--------------------------------------------------------------------------
@@ -368,3 +368,30 @@ $config['proxy_ips'] = '';
 
 /* End of file config.php */
 /* Location: ./application/config/config.php */
+
+/*
+|--------------------------------------------------------------------------
+| Assets folder config
+|--------------------------------------------------------------------------
+*/
+$config['asset_path'] 	 = 'assets/';
+$config['css_path'] 	 = 'assets/css/';
+$config['download_path'] = 'assets/download/';
+$config['less_path'] 	 = 'assets/less/';
+$config['js_path'] 		 = 'assets/js/';
+$config['img_path'] 	 = 'assets/img/';
+$config['swf_path'] 	 = 'assets/swf/';
+$config['upload_path'] 	 = 'assets/upload/';
+$config['xml_path'] 	 = 'assets/xml/';
+$config['pdf_path'] 	 = 'assets/pdf/';
+$config['photos_files_path'] = 'C:\xampp\htdocs\DESA\running_v1\uploads';
+
+
+/*
+|--------------------------------------------------------------------------
+| Configuración de Rutas Upload
+|--------------------------------------------------------------------------
+*/
+$config['extensiones_permitidas'] = 'png|jpeg|jpg';
+$config['tamanio_archivo']        = '5000'; //5MB
+
